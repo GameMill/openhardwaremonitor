@@ -18,7 +18,7 @@ using OpenHardwareMonitor.Collections;
 namespace OpenHardwareMonitor.Hardware.HDD {
 
   [NamePrefix("")]
-  internal class GenericHarddisk : AbstractHarddrive {
+  public class GenericHarddisk : AbstractHarddrive {
 
     private static readonly List<SmartAttribute> smartAttributes =
       new List<SmartAttribute> {
