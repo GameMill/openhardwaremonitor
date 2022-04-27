@@ -17,7 +17,7 @@ using OpenHardwareMonitor.Collections;
 
 namespace OpenHardwareMonitor.Hardware {
 
-  internal class Sensor : ISensor {
+  public class Sensor : ISensor {
 
     private readonly string defaultName;
     private string name;

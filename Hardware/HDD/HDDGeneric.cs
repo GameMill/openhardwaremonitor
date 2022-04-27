@@ -20,7 +20,7 @@ namespace OpenHardwareMonitor.Hardware.HDD {
   [NamePrefix("")]
   public class GenericHarddisk : AbstractHarddrive {
 
-    private static readonly List<SmartAttribute> smartAttributes =
+    public static readonly List<SmartAttribute> smartAttributes =
       new List<SmartAttribute> {
       new SmartAttribute(0x01, SmartNames.ReadErrorRate),
       new SmartAttribute(0x02, SmartNames.ThroughputPerformance),
